@@ -1,0 +1,5 @@
+để sử dụng được lệnh dbms_lock.sleep(time) 
+bước 1: conn vao tai khoan user goc la sys: conn sys/04011997 as sysdba
+bước 2 : grant execute on SYS.DBMS_LOCK to user_new;
+bước 3: conn vao user_new ;
+bươc 4: tao mot procedure co lenh dbms_lock.sleep(time) se thuc thi được;
